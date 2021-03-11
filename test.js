@@ -1,6 +1,5 @@
-    //Rest parameter
-    function addNumber(...numbers) {
-        console.log(numbers); 
-    }
+const me = ['age', 10];
+const [string, number] = me;
 
-    addNumber(1,2); 
+console.log(string)
+console.log(number)
