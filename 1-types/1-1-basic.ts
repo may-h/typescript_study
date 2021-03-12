@@ -21,17 +21,17 @@
      */
 
      //number 
-     const num:number = -6;
+     const num: number = -6;
 
      //string 
-     const str:string = 'hello';
+     const str: string = 'hello';
 
      //boolean 
-     const boal:boolean = true; 
+     const boal: boolean = true; 
 
     // undefined : 비었는지 아닌지 아직 결정되지 않은 상태. 
-    let name:undefined; //Never Used ALONE 💩 : 타입에 undefied만 단독으로 사용하지 않는다! 
-    let age:number | undefined; //Optional 타입 선언. 
+    let name: undefined; //Never Used ALONE 💩 : 타입에 undefied만 단독으로 사용하지 않는다! 
+    let age: number | undefined; //Optional 타입 선언. 
     age = undefined;
     age = 1;
     function find():number | undefined {
