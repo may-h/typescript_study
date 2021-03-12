@@ -3,6 +3,7 @@
     /**
      * Type Aliases
      * 새로운 타입을 내가 정의할 수 있다. 
+     * 원시 타입 뿐만 아니라 Object 타입도 내가 원하는 대로 만들 수 있다. 
      */
 
     type Text = string; 
@@ -27,6 +28,7 @@
 
     /**
      * String Literal Types
+     * 실제 값 자체를 타입으로 지정할 수 있다. 
      */
 
     type Name = 'name';

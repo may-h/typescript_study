@@ -60,10 +60,10 @@
 
 
     // never : 함수에서 절대절대 리턴할 일 없을 때 사용. 
-    function throwError(message: string): never {
+    // function throwError(message: string): never {
         // throw new Error(message);
         // while(true) {}
-    }
+    // }
     let neverEnding: never; // 💩
 
 
