@@ -61,4 +61,5 @@
     maker.fillCoffeeBeans(40);
 
     // CoffeeMaker.BEANS_GRAMM_PER_SHOT; //레벨이 public이면 보이고, private이면 접근 불가.    
+
 }
