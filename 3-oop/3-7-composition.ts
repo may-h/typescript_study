@@ -156,18 +156,4 @@
       }
   }
 
-  // 다형성의 장점
-  const machines = [
-    new CoffeeMachine(16),
-    new CaffeLatteMachine(16, "A11"),
-    new SweetCoffeeMaker(16),
-    new CoffeeMachine(16),
-    new CaffeLatteMachine(16, "A11"),
-    new SweetCoffeeMaker(16),
-  ];
-
-  machines.forEach((machine) => {
-    console.log("-------------------------");
-    machine.makeCoffee(1);
-  });
 }
